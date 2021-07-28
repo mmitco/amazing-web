@@ -7,7 +7,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 1. Install [Docker](https://docs.docker.com/get-docker) onto your machine.
 2. Run `docker build . -t amazing-web --target dev` to build the dev image.
-3. `docker run amazing-web` to run the dev server.
+3. `docker run -p 3000:3000 amazing-web` to run the dev server.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the landing page.
 
